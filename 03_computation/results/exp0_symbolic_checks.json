@@ -1,0 +1,23 @@
+{
+  "all_pass": true,
+  "checks": {
+    "S1a energy balance of sector A": true,
+    "S1b momentum balance of sector A": true,
+    "S1c momentum balance of the gate": true,
+    "S2a total energy": true,
+    "S2b total momentum": true,
+    "S3a energy source = +(d_t f) O_A O_B": true,
+    "S3b momentum source = -(d_x f) O_A O_B": true,
+    "S4a slab  k0 tan(k0 Lc/2) = mu": true,
+    "S4b ball  k0 cot(k0 Rc) = -mu": true,
+    "S4c slab  Lc -> pi/(mu sqrt(r-1)) as r->1+": true,
+    "S4d slab  Lc ~ 2/(mu (r-1)) as r->oo": true,
+    "S4e ball  (r-1) mu^2 Rc^2 > pi^2/4 for all r>1": true,
+    "S5a even gate  V_min = -(s-mu^2)^2/(4 lambda)": true,
+    "S5b odd gate   V_min = -(n_A n_B)^2/(2 M^6 mu^2)": true,
+    "S6a massless mode couples to T_A + T_B": true,
+    "S6b massive mode couples to -alpha T_A + T_B/alpha": true,
+    "S6c massive/massless static weight = 4/3": true,
+    "S7  V_AA V_BB - V_AB^2 = (4/3) y (alpha + 1/alpha)^2 >= 0": true
+  }
+}

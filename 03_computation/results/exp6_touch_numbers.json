@@ -1,0 +1,157 @@
+{
+  "assumptions": {
+    "P_touch_fiducial_Pa": 100.0,
+    "P_touch_optimistic_Pa": 1.0,
+    "P_touch_firm_Pa": 10000.0,
+    "contact_area_m2": 0.0001,
+    "tissue_density_kg_m3": 1000.0,
+    "air_density_kg_m3": 1.2,
+    "tissue_shear_stiffness_Pa": 50000.0,
+    "T_K": 310.0,
+    "alpha_AA_max": 0.001,
+    "hidden_mass_fraction_max": 0.0038,
+    "kinetic_mixing_max": 5.8e-08,
+    "higgs_invisible_BR_max": 0.107,
+    "higgs_width_SM_MeV": 4.1,
+    "f_N": 0.3,
+    "gate_threshold_theta": 0.03,
+    "gate_mass_eV": 0.0002,
+    "touch_duration_s": 0.01
+  },
+  "touch": {
+    "SW_force_N": 0.0006864654999999999,
+    "P_touch": 100.0,
+    "force_N": 0.01,
+    "skin_displacement_m": 1e-05
+  },
+  "contact": {
+    "n_w": 6.022140753667369e+29,
+    "G_F_SI": 1.4358510319712256e-62,
+    "P_weak_Pa": 0.005207283091179018,
+    "rows": [
+      {
+        "case": "optimistic",
+        "P_Pa": 1.0,
+        "G_over_GF": 192.03872393532245,
+        "Lambda_GeV": 21.12933380348089,
+        "U_per_nucleon_eV": 1.0364269667160807e-11
+      },
+      {
+        "case": "fiducial",
+        "P_Pa": 100.0,
+        "G_over_GF": 19203.872393532245,
+        "Lambda_GeV": 2.112933380348089,
+        "U_per_nucleon_eV": 1.0364269667160806e-09
+      },
+      {
+        "case": "firm",
+        "P_Pa": 10000.0,
+        "G_over_GF": 1920387.2393532244,
+        "Lambda_GeV": 0.2112933380348089,
+        "U_per_nucleon_eV": 1.0364269667160806e-07
+      }
+    ]
+  },
+  "portals": {
+    "P_weak": 0.005207283091179018,
+    "P_higgs_light": 3.232725356132555e-07,
+    "P_higgs_heavy": 3.255964486700473e-07,
+    "g_B_light_max": 0.009928625970391134,
+    "shortfall_fiducial": 19203.872393532245,
+    "shortfall_optimistic": 192.03872393532245
+  },
+  "thermal": {
+    "sigma_NN_m2": 1.348901010802719e-34,
+    "sigma_nuc_m2": 4.595989232483947e-28,
+    "h_floor_W_m3_K": 2447079.962226843,
+    "h_coherent_W_m3_K": 8142300504.140584,
+    "t_eq_floor_s": 1.7081583211511404,
+    "t_eq_coherent_s": 0.0005133684267578131,
+    "G_isolation_over_GF": 4.4677038222610196e-05
+  },
+  "long_range": {
+    "F_grav_N": 2.66972e-10,
+    "alpha_cross": 37457111.60720975,
+    "alpha_BB_min": 1.4030352099549673e+18,
+    "F_BB_min_N": 374571116.0720975,
+    "self_binding_J_per_kg": 2941874666.2475786
+  },
+  "gravity": {
+    "rho_earth": 5513.443375519388,
+    "rho_B_max": 20.951084826973673,
+    "support_pressure_Pa": 1308097742.039963
+  },
+  "radiation_extrapolation": {
+    "mu_tau": 3038534895.7572527,
+    "fraction": 2.6087293307621288e-12
+  },
+  "even_gate": {
+    "theta": 0.03,
+    "mu_eV": 0.0002,
+    "r_flesh_flesh": 33.333333333333336,
+    "r_flesh_air": 0.04,
+    "M_eV": 2001799.0195957725,
+    "lambda": 8.719908611417401e-14,
+    "chi_on_eV": 3851.2283398101226,
+    "R_c_m": 0.0003027587020145177,
+    "compton_m": 0.0009866349022965124,
+    "Lambda_UV_max_eV": 48395.962638577184,
+    "tuning": 6.343971526122385e+17,
+    "ungated_loop_G_over_GF": 135487661.63918614
+  },
+  "odd_gate": {
+    "Lambda_eff_eV": 55917.66516841917,
+    "M_eV_for_mu": 32574946.252178635,
+    "air_suppression": 1.4399999999999998e-06,
+    "P_air_Pa": 0.00014399999999999998,
+    "P_dm_density_Pa": 5.084613642915309e-47
+  },
+  "lumps": {
+    "t_relativistic_s": 3.335640951981521e-11,
+    "m_min_eV": 591.5714050161226,
+    "t_crossing_s": 4.347826086956522e-08
+  },
+  "bimetric": [
+    {
+      "compton": "1 AU",
+      "m_FP_eV": 1.3190493924543705e-18,
+      "Lambda3_eV": 0.0016181778654475853,
+      "inv_Lambda3_m": 0.00012194393748225087
+    },
+    {
+      "compton": "1 kpc",
+      "m_FP_eV": 6.394885454169313e-27,
+      "Lambda3_eV": 4.6352596208165385e-09,
+      "inv_Lambda3_m": 42.57085829089801
+    },
+    {
+      "compton": "Hubble radius",
+      "m_FP_eV": 1.4377122176002563e-33,
+      "Lambda3_eV": 1.7138265233322257e-13,
+      "inv_Lambda3_m": 1151382.4635858468
+    }
+  ],
+  "bound_states": {
+    "rows": [
+      {
+        "pair": "H - H",
+        "b_crit_fm": 0.003983516392867577,
+        "mediator_mass_MeV": 49535.87760115994,
+        "bound_at_contact_range": false
+      },
+      {
+        "pair": "O - O",
+        "b_crit_fm": 16.316483145185597,
+        "mediator_mass_MeV": 12.093720117470689,
+        "bound_at_contact_range": true
+      },
+      {
+        "pair": "Ca - Ca",
+        "b_crit_fm": 254.945049143525,
+        "mediator_mass_MeV": 0.7739980875181239,
+        "bound_at_contact_range": true
+      }
+    ],
+    "V_OO_contact_MeV": 4.405830324004609
+  }
+}

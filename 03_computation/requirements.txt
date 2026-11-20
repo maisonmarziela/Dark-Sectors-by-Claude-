@@ -1,0 +1,6 @@
+# Versions used to produce the results in results/ (Python 3.14, Windows 10).
+# Older versions should work: the code uses only long-standing APIs, except numpy.trapezoid (numpy >= 2.0).
+numpy==2.5.4
+scipy==1.18.1
+matplotlib==3.11.2
+sympy==1.14.0

@@ -1,0 +1,72 @@
+{
+  "r0": 5.0,
+  "u_bulk": 4.0,
+  "critical_depth": 0.5450313410921309,
+  "quasi_static_displacement_prediction": -0.1,
+  "runs": [
+    {
+      "run": "baseline r0=0",
+      "max_abs_XA": 0.0,
+      "max_gate_amplitude": 3.241471580305747e-08,
+      "max_abs_force_on_A": 0.0
+    },
+    {
+      "run": "sub-threshold density r0=0.9",
+      "max_abs_XA": 2.4345868415594133e-18,
+      "max_gate_amplitude": 3.241471580305747e-08,
+      "max_abs_force_on_A": 1.5353924298098722e-16
+    },
+    {
+      "run": "sub-critical size (depth 0.8 d_c)",
+      "max_abs_XA": 7.550605562180846e-19,
+      "max_gate_amplitude": 3.241471580305747e-08,
+      "max_abs_force_on_A": 8.761251074167782e-17
+    },
+    {
+      "run": "contact r0=5 depth 10",
+      "max_abs_XA": 0.1418705758615593,
+      "max_gate_amplitude": 2.5634811553411856,
+      "max_abs_force_on_A": 7.878646773819923
+    }
+  ],
+  "contact": {
+    "F_A_hold": -4.000000265360625,
+    "F_B_hold": 3.9999997571804196,
+    "X_A_hold": -0.1000000005824161,
+    "t_cross_dc": 260.16,
+    "t_gate_on": 274.08000000000004,
+    "depth_at_gate_on": 2.6718533158153934,
+    "third_law_rms_rel": 0.0016064698106645703,
+    "energy_budget_drift_rel": 0.00017827081511186474,
+    "peak_gate_energy": 92.73969654610362,
+    "residual_gate_amplitude_early": 0.031052955373940042,
+    "residual_gate_amplitude_late": 0.02156184652450462,
+    "residual_decay_exponent": -0.5641096083478108,
+    "residual_force": 0.0,
+    "radiated_energy": 7.820647396436532,
+    "radiated_fraction": 0.08432901645897298
+  },
+  "convergence": [
+    {
+      "dx": 0.2,
+      "F_A_hold": -4.000000332713504,
+      "X_A_hold": -0.10000000007087662,
+      "min_X_A": -0.1417549317721171,
+      "t_gate_on": 274.56
+    },
+    {
+      "dx": 0.1,
+      "F_A_hold": -4.000000265360625,
+      "X_A_hold": -0.1000000005824161,
+      "min_X_A": -0.1418705758615593,
+      "t_gate_on": 274.08000000000004
+    },
+    {
+      "dx": 0.05,
+      "F_A_hold": -4.000000270888526,
+      "X_A_hold": -0.10000000137097516,
+      "min_X_A": -0.14184634009630806,
+      "t_gate_on": 274.0
+    }
+  ]
+}

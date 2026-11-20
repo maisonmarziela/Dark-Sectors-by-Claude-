@@ -1,0 +1,46 @@
+{
+  "cases": [
+    {
+      "b1": 1.0,
+      "b2": 1.0,
+      "positive_part": 2.129952262959357,
+      "negative_part": -2.129952262953597,
+      "total": 5.759688534467413e-12,
+      "relative_residual": 2.704139728683355e-12,
+      "nucleus_only_piece_2pi_b2": 6.283185307179586,
+      "V_check_rel_err": 1.416310808432133e-11
+    },
+    {
+      "b1": 1.0,
+      "b2": 0.25,
+      "positive_part": 0.3157107001959521,
+      "negative_part": -0.315710700178895,
+      "total": 1.705709251900113e-11,
+      "relative_residual": 5.402760346232898e-11,
+      "nucleus_only_piece_2pi_b2": 0.39269908169872414,
+      "V_check_rel_err": 2.599134796356094e-08
+    },
+    {
+      "b1": 1.0,
+      "b2": 0.05,
+      "positive_part": 0.015482332038463435,
+      "negative_part": -0.015482331954605515,
+      "total": 8.385792127643067e-11,
+      "relative_residual": 5.416362410268606e-09,
+      "nucleus_only_piece_2pi_b2": 0.015707963267948967,
+      "V_check_rel_err": 0.000562795462194267
+    },
+    {
+      "b1": 0.6,
+      "b2": 1.7,
+      "positive_part": 1.60046426615241,
+      "negative_part": -1.6004642661451371,
+      "total": 7.272873944774174e-12,
+      "relative_residual": 4.544227633559417e-12,
+      "nucleus_only_piece_2pi_b2": 2.261946710584651,
+      "V_check_rel_err": 9.320259951053685e-11
+    }
+  ],
+  "nucleus_only_estimate_eV_per_epsilon": 3.5806262894035554,
+  "worst_relative_residual": 5.416362410268606e-09
+}

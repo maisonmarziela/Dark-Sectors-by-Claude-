@@ -1,0 +1,1544 @@
+[
+  {
+    "query": "hep-ph/0606202",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "mirror particles and mirror matter",
+    "expected_author": "okun",
+    "id": "hep-ph/0606202",
+    "title": "Mirror particles and mirror matter: 50 years of speculation and search",
+    "authors": [
+      "L. B. Okun"
+    ],
+    "n_authors": 1,
+    "published": "2006-06-19",
+    "journal_ref": "Phys.Usp.50:380-389,2007",
+    "doi": "10.1070/PU2007v050n04ABEH006227"
+  },
+  {
+    "query": "hep-ph/0605188",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "higgs-field portal",
+    "expected_author": "wilczek",
+    "id": "hep-ph/0605188",
+    "title": "Higgs-field Portal into Hidden Sectors",
+    "authors": [
+      "Brian Patt",
+      "Frank Wilczek"
+    ],
+    "n_authors": 2,
+    "published": "2006-05-16",
+    "journal_ref": "",
+    "doi": ""
+  },
+  {
+    "query": "hep-ph/0507031",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "mirror neutron oscillations",
+    "expected_author": "berezhiani",
+    "id": "hep-ph/0507031",
+    "title": "Neutron - Mirror Neutron Oscillations: How Fast Might They Be?",
+    "authors": [
+      "Zurab Berezhiani",
+      "Luis Bento"
+    ],
+    "n_authors": 2,
+    "published": "2005-07-03",
+    "journal_ref": "Phys.Rev.Lett. 96 (2006) 081801",
+    "doi": "10.1103/PhysRevLett.96.081801"
+  },
+  {
+    "query": "0804.2088",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "more about neutron",
+    "expected_author": "berezhiani",
+    "id": "0804.2088",
+    "title": "More about neutron - mirror neutron oscillation",
+    "authors": [
+      "Zurab Berezhiani"
+    ],
+    "n_authors": 1,
+    "published": "2008-04-13",
+    "journal_ref": "Eur.Phys.J.C64:421-431,2009",
+    "doi": "10.1140/epjc/s10052-009-1165-1"
+  },
+  {
+    "query": "2009.11046",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "mirror-neutron oscillations",
+    "expected_author": "abel",
+    "id": "2009.11046",
+    "title": "A search for neutron to mirror-neutron oscillations",
+    "authors": [
+      "C. Abel",
+      "N. J. Ayres",
+      "G. Ban",
+      "G. Bison",
+      "K. Bodek",
+      "V. Bondar",
+      "et al."
+    ],
+    "n_authors": 43,
+    "published": "2020-09-23",
+    "journal_ref": "",
+    "doi": "10.1016/j.physletb.2020.135993"
+  },
+  {
+    "query": "2111.05543",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "neutron to mirror neutron",
+    "expected_author": "broussard",
+    "id": "2111.05543",
+    "title": "Experimental Search for Neutron to Mirror Neutron Oscillations as an Explanation of the Neutron Lifetime Anomaly",
+    "authors": [
+      "L. J. Broussard",
+      "J. L. Barrow",
+      "L. DeBeer-Schmitt",
+      "T. Dennis",
+      "M. R. Fitzsimmons",
+      "M. J. Frost",
+      "et al."
+    ],
+    "n_authors": 18,
+    "published": "2021-11-10",
+    "journal_ref": "",
+    "doi": "10.1103/PhysRevLett.128.212503"
+  },
+  {
+    "query": "hep-ph/0204256",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "mirror atom bound states",
+    "expected_author": "foot",
+    "id": "hep-ph/0204256",
+    "title": "Ordinary atom-mirror atom bound states: A new window on the mirror world",
+    "authors": [
+      "R. Foot",
+      "S. Mitra"
+    ],
+    "n_authors": 2,
+    "published": "2002-04-22",
+    "journal_ref": "Phys.Rev.D66:061301,2002",
+    "doi": "10.1103/PhysRevD.66.061301"
+  },
+  {
+    "query": "1401.3965",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "mirror dark matter",
+    "expected_author": "foot",
+    "id": "1401.3965",
+    "title": "Mirror dark matter: Cosmology, galaxy structure and direct detection",
+    "authors": [
+      "R. Foot"
+    ],
+    "n_authors": 1,
+    "published": "2014-01-16",
+    "journal_ref": "Int. J. Mod. Phys. A, 29, 1430013 (2014)",
+    "doi": "10.1142/S0217751X14300130"
+  },
+  {
+    "query": "hep-ph/0008105",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "early mirror universe",
+    "expected_author": "berezhiani",
+    "id": "hep-ph/0008105",
+    "title": "The Early Mirror Universe: Inflation, Baryogenesis, Nucleosynthesis and Dark Matter",
+    "authors": [
+      "Zurab Berezhiani",
+      "Denis Comelli",
+      "Francesco L. Villante"
+    ],
+    "n_authors": 3,
+    "published": "2000-08-11",
+    "journal_ref": "Phys.Lett.B503:362-375,2001",
+    "doi": "10.1016/S0370-2693(01)00217-9"
+  },
+  {
+    "query": "hep-ph/0312335",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "mirror world",
+    "expected_author": "berezhiani",
+    "id": "hep-ph/0312335",
+    "title": "Mirror World and its Cosmological Consequences",
+    "authors": [
+      "Zurab Berezhiani"
+    ],
+    "n_authors": 1,
+    "published": "2003-12-23",
+    "journal_ref": "Int.J.Mod.Phys.A19:3775-3806,2004",
+    "doi": "10.1142/S0217751X04020075"
+  },
+  {
+    "query": "astro-ph/0203152",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "tunguska",
+    "expected_author": "foot",
+    "id": "astro-ph/0203152",
+    "title": "Exotic meteoritic phenomena: The Tunguska event and anomalous low altitude fireballs -- manifestations of the mirror world?",
+    "authors": [
+      "R. Foot",
+      "T. L. Yoon"
+    ],
+    "n_authors": 2,
+    "published": "2002-03-11",
+    "journal_ref": "ActaPhys.Polon.B33:1979-2009,2002",
+    "doi": ""
+  },
+  {
+    "query": "1608.08632",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "dark sectors 2016",
+    "expected_author": "alexander",
+    "id": "1608.08632",
+    "title": "Dark Sectors 2016 Workshop: Community Report",
+    "authors": [
+      "Jim Alexander",
+      "Marco Battaglieri",
+      "Bertrand Echenard",
+      "Rouven Essig",
+      "Matthew Graham",
+      "Eder Izaguirre",
+      "et al."
+    ],
+    "n_authors": 204,
+    "published": "2016-08-30",
+    "journal_ref": "",
+    "doi": ""
+  },
+  {
+    "query": "2005.01515",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "dark photon",
+    "expected_author": "fabbrichesi",
+    "id": "2005.01515",
+    "title": "The Dark Photon",
+    "authors": [
+      "Marco Fabbrichesi",
+      "Emidio Gabrielli",
+      "Gaia Lanfranchi"
+    ],
+    "n_authors": 3,
+    "published": "2020-05-04",
+    "journal_ref": "SpringerBriefs in Physics 2020",
+    "doi": "10.1007/978-3-030-62519-1"
+  },
+  {
+    "query": "1903.03616",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "higgs portal",
+    "expected_author": "arcadi",
+    "id": "1903.03616",
+    "title": "Dark Matter through the Higgs portal",
+    "authors": [
+      "Giorgio Arcadi",
+      "Abdelhak Djouadi",
+      "Martti Raidal"
+    ],
+    "n_authors": 3,
+    "published": "2019-03-08",
+    "journal_ref": "",
+    "doi": "10.1016/j.physrep.2019.11.003"
+  },
+  {
+    "query": "hep-ph/0506256",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "twin higgs",
+    "expected_author": "chacko",
+    "id": "hep-ph/0506256",
+    "title": "The Twin Higgs: Natural Electroweak Breaking from Mirror Symmetry",
+    "authors": [
+      "Z. Chacko",
+      "Hock-Seng Goh",
+      "Roni Harnik"
+    ],
+    "n_authors": 3,
+    "published": "2005-06-24",
+    "journal_ref": "Phys.Rev.Lett.96:231802,2006",
+    "doi": "10.1103/PhysRevLett.96.231802"
+  },
+  {
+    "query": "hep-ph/0604261",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "hidden valley",
+    "expected_author": "strassler",
+    "id": "hep-ph/0604261",
+    "title": "Echoes of a Hidden Valley at Hadron Colliders",
+    "authors": [
+      "Matthew J. Strassler",
+      "Kathryn M. Zurek"
+    ],
+    "n_authors": 2,
+    "published": "2006-04-28",
+    "journal_ref": "Phys.Lett.B651:374-379,2007",
+    "doi": "10.1016/j.physletb.2007.06.055"
+  },
+  {
+    "query": "0905.1709",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "dark sectors",
+    "expected_author": "dvali",
+    "id": "0905.1709",
+    "title": "Phenomenology of 10^32 Dark Sectors",
+    "authors": [
+      "Gia Dvali",
+      "Michele Redi"
+    ],
+    "n_authors": 2,
+    "published": "2009-05-11",
+    "journal_ref": "Phys.Rev.D80:055001,2009",
+    "doi": "10.1103/PhysRevD.80.055001"
+  },
+  {
+    "query": "1607.06821",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "nnaturalness",
+    "expected_author": "arkani-hamed",
+    "id": "1607.06821",
+    "title": "Nnaturalness",
+    "authors": [
+      "Nima Arkani-Hamed",
+      "Timothy Cohen",
+      "Raffaele Tito D'Agnolo",
+      "Anson Hook",
+      "Hyung Do Kim",
+      "David Pinner"
+    ],
+    "n_authors": 6,
+    "published": "2016-07-22",
+    "journal_ref": "Phys. Rev. Lett. 117, 251801 (2016)",
+    "doi": "10.1103/PhysRevLett.117.251801"
+  },
+  {
+    "query": "0706.2050",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "species",
+    "expected_author": "dvali",
+    "id": "0706.2050",
+    "title": "Black Holes and Large N Species Solution to the Hierarchy Problem",
+    "authors": [
+      "Gia Dvali"
+    ],
+    "n_authors": 1,
+    "published": "2007-06-14",
+    "journal_ref": "Fortsch.Phys.58:528-536,2010",
+    "doi": "10.1002/prop.201000009"
+  },
+  {
+    "query": "1705.06726",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "anomalous currents",
+    "expected_author": "dror",
+    "id": "1705.06726",
+    "title": "New constraints on light vectors coupled to anomalous currents",
+    "authors": [
+      "Jeff A. Dror",
+      "Robert Lasenby",
+      "Maxim Pospelov"
+    ],
+    "n_authors": 3,
+    "published": "2017-05-18",
+    "journal_ref": "Phys. Rev. Lett. 119, 141803 (2017)",
+    "doi": "10.1103/PhysRevLett.119.141803"
+  },
+  {
+    "query": "1303.1521",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "double-disk dark matter",
+    "expected_author": "fan",
+    "id": "1303.1521",
+    "title": "Double-Disk Dark Matter",
+    "authors": [
+      "JiJi Fan",
+      "Andrey Katz",
+      "Lisa Randall",
+      "Matthew Reece"
+    ],
+    "n_authors": 4,
+    "published": "2013-03-06",
+    "journal_ref": "",
+    "doi": "10.1016/j.dark.2013.07.001"
+  },
+  {
+    "query": "hep-ph/9803315",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "hierarchy problem and new dimensions",
+    "expected_author": "arkani-hamed",
+    "id": "hep-ph/9803315",
+    "title": "The Hierarchy Problem and New Dimensions at a Millimeter",
+    "authors": [
+      "Nima Arkani-Hamed",
+      "Savas Dimopoulos",
+      "Gia Dvali"
+    ],
+    "n_authors": 3,
+    "published": "1998-03-11",
+    "journal_ref": "Phys.Lett.B429:263-272,1998",
+    "doi": "10.1016/S0370-2693(98)00466-3"
+  },
+  {
+    "query": "hep-ph/9905221",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "large mass hierarchy",
+    "expected_author": "randall",
+    "id": "hep-ph/9905221",
+    "title": "A Large Mass Hierarchy from a Small Extra Dimension",
+    "authors": [
+      "Lisa Randall",
+      "Raman Sundrum"
+    ],
+    "n_authors": 2,
+    "published": "1999-05-04",
+    "journal_ref": "Phys.Rev.Lett.83:3370-3373,1999",
+    "doi": "10.1103/PhysRevLett.83.3370"
+  },
+  {
+    "query": "hep-th/9906064",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "alternative to compactification",
+    "expected_author": "randall",
+    "id": "hep-th/9906064",
+    "title": "An Alternative to Compactification",
+    "authors": [
+      "Lisa Randall",
+      "Raman Sundrum"
+    ],
+    "n_authors": 2,
+    "published": "1999-06-08",
+    "journal_ref": "Phys.Rev.Lett.83:4690-4693,1999",
+    "doi": "10.1103/PhysRevLett.83.4690"
+  },
+  {
+    "query": "hep-ph/9911386",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "manyfold universe",
+    "expected_author": "arkani-hamed",
+    "id": "hep-ph/9911386",
+    "title": "Manyfold Universe",
+    "authors": [
+      "Nima Arkani-Hamed",
+      "Savas Dimopoulos",
+      "Gia Dvali",
+      "Nemanja Kaloper"
+    ],
+    "n_authors": 4,
+    "published": "1999-11-17",
+    "journal_ref": "JHEP 0012 (2000) 010",
+    "doi": "10.1088/1126-6708/2000/12/010"
+  },
+  {
+    "query": "hep-th/0103239",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "ekpyrotic universe",
+    "expected_author": "khoury",
+    "id": "hep-th/0103239",
+    "title": "The Ekpyrotic Universe: Colliding Branes and the Origin of the Hot Big Bang",
+    "authors": [
+      "Justin Khoury",
+      "Burt A. Ovrut",
+      "Paul J. Steinhardt",
+      "Neil Turok"
+    ],
+    "n_authors": 4,
+    "published": "2001-03-29",
+    "journal_ref": "Phys.Rev.D64:123522,2001",
+    "doi": "10.1103/PhysRevD.64.123522"
+  },
+  {
+    "query": "hep-th/0007220",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "multi-graviton",
+    "expected_author": "boulanger",
+    "id": "hep-th/0007220",
+    "title": "Inconsistency of interacting, multi-graviton theories",
+    "authors": [
+      "Nicolas Boulanger",
+      "Thibault Damour",
+      "Leonardo Gualtieri",
+      "Marc Henneaux"
+    ],
+    "n_authors": 4,
+    "published": "2000-07-27",
+    "journal_ref": "Nucl.Phys. B597 (2001) 127-171",
+    "doi": "10.1016/S0550-3213(00)00718-5"
+  },
+  {
+    "query": "hep-th/0206042",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "nonlinear bigravity",
+    "expected_author": "damour",
+    "id": "hep-th/0206042",
+    "title": "Effective Lagrangians and Universality Classes of Nonlinear Bigravity",
+    "authors": [
+      "Thibault Damour",
+      "Ian I. Kogan"
+    ],
+    "n_authors": 2,
+    "published": "2002-06-05",
+    "journal_ref": "Phys.Rev. D66 (2002) 104024",
+    "doi": "10.1103/PhysRevD.66.104024"
+  },
+  {
+    "query": "hep-th/0210184",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "gravity in theory space",
+    "expected_author": "arkani-hamed",
+    "id": "hep-th/0210184",
+    "title": "Effective Field Theory for Massive Gravitons and Gravity in Theory Space",
+    "authors": [
+      "Nima Arkani-Hamed",
+      "Howard Georgi",
+      "Matthew D. Schwartz"
+    ],
+    "n_authors": 3,
+    "published": "2002-10-21",
+    "journal_ref": "Ann.Phys.305:96-118,2003",
+    "doi": "10.1016/S0003-4916(03)00068-X"
+  },
+  {
+    "query": "1011.1232",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "resummation of massive gravity",
+    "expected_author": "de rham",
+    "id": "1011.1232",
+    "title": "Resummation of Massive Gravity",
+    "authors": [
+      "Claudia de Rham",
+      "Gregory Gabadadze",
+      "Andrew J. Tolley"
+    ],
+    "n_authors": 3,
+    "published": "2010-11-04",
+    "journal_ref": "Phys.Rev.Lett.106:231101,2011",
+    "doi": "10.1103/PhysRevLett.106.231101"
+  },
+  {
+    "query": "1109.3515",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "bimetric gravity from ghost-free massive gravity",
+    "expected_author": "hassan",
+    "id": "1109.3515",
+    "title": "Bimetric Gravity from Ghost-free Massive Gravity",
+    "authors": [
+      "S. F. Hassan",
+      "Rachel A. Rosen"
+    ],
+    "n_authors": 2,
+    "published": "2011-09-16",
+    "journal_ref": "",
+    "doi": "10.1007/JHEP02(2012)126"
+  },
+  {
+    "query": "1203.5783",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "interacting spin-2 fields",
+    "expected_author": "hinterbichler",
+    "id": "1203.5783",
+    "title": "Interacting Spin-2 Fields",
+    "authors": [
+      "Kurt Hinterbichler",
+      "Rachel A. Rosen"
+    ],
+    "n_authors": 2,
+    "published": "2012-03-26",
+    "journal_ref": "JHEP 07(2012)047",
+    "doi": "10.1007/JHEP07(2012)047"
+  },
+  {
+    "query": "1105.3735",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "theoretical aspects of massive gravity",
+    "expected_author": "hinterbichler",
+    "id": "1105.3735",
+    "title": "Theoretical Aspects of Massive Gravity",
+    "authors": [
+      "Kurt Hinterbichler"
+    ],
+    "n_authors": 1,
+    "published": "2011-05-18",
+    "journal_ref": "Rev. Mod. Phys. 84, 671-710 (2012)",
+    "doi": "10.1103/RevModPhys.84.671"
+  },
+  {
+    "query": "1401.4173",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "massive gravity",
+    "expected_author": "de rham",
+    "id": "1401.4173",
+    "title": "Massive Gravity",
+    "authors": [
+      "Claudia de Rham"
+    ],
+    "n_authors": 1,
+    "published": "2014-01-16",
+    "journal_ref": "Living Rev. Relativity 17 (2014), 7",
+    "doi": "10.12942/lrr-2014-7"
+  },
+  {
+    "query": "1512.00021",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "bimetric theory",
+    "expected_author": "schmidt-may",
+    "id": "1512.00021",
+    "title": "Recent developments in bimetric theory",
+    "authors": [
+      "Angnis Schmidt-May",
+      "Mikael von Strauss"
+    ],
+    "n_authors": 2,
+    "published": "2015-11-30",
+    "journal_ref": "",
+    "doi": "10.1088/1751-8113/49/18/183001"
+  },
+  {
+    "query": "1408.0487",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "doubly coupled matter",
+    "expected_author": "yamashita",
+    "id": "1408.0487",
+    "title": "Appearance of Boulware-Deser ghost in bigravity with doubly coupled matter",
+    "authors": [
+      "Yasuho Yamashita",
+      "Antonio De Felice",
+      "Takahiro Tanaka"
+    ],
+    "n_authors": 3,
+    "published": "2014-08-03",
+    "journal_ref": "Int.J.Mod.Phys. D23 (2014) 1443003",
+    "doi": "10.1142/S0218271814430032"
+  },
+  {
+    "query": "1408.1678",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "couplings to matter in massive",
+    "expected_author": "de rham",
+    "id": "1408.1678",
+    "title": "On couplings to matter in massive (bi-)gravity",
+    "authors": [
+      "Claudia de Rham",
+      "Lavinia Heisenberg",
+      "Raquel H. Ribeiro"
+    ],
+    "n_authors": 3,
+    "published": "2014-08-07",
+    "journal_ref": "Class. Quantum Grav. 32 (2015) 035022",
+    "doi": "10.1088/0264-9381/32/3/035022"
+  },
+  {
+    "query": "0807.2838",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "exchange symmetry",
+    "expected_author": "hossenfelder",
+    "id": "0807.2838",
+    "title": "A Bi-Metric Theory with Exchange Symmetry",
+    "authors": [
+      "S. Hossenfelder"
+    ],
+    "n_authors": 1,
+    "published": "2008-07-17",
+    "journal_ref": "Phys.Rev.D78:044015,2008",
+    "doi": "10.1103/PhysRevD.78.044015"
+  },
+  {
+    "query": "1001.4525",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "symmetron",
+    "expected_author": "hinterbichler",
+    "id": "1001.4525",
+    "title": "Symmetron Fields: Screening Long-Range Forces Through Local Symmetry Restoration",
+    "authors": [
+      "Kurt Hinterbichler",
+      "Justin Khoury"
+    ],
+    "n_authors": 2,
+    "published": "2010-01-26",
+    "journal_ref": "Phys.Rev.Lett.104:231301,2010",
+    "doi": "10.1103/PhysRevLett.104.231301"
+  },
+  {
+    "query": "astro-ph/0309300",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "chameleon fields",
+    "expected_author": "khoury",
+    "id": "astro-ph/0309300",
+    "title": "Chameleon Fields: Awaiting Surprises for Tests of Gravity in Space",
+    "authors": [
+      "Justin Khoury",
+      "Amanda Weltman"
+    ],
+    "n_authors": 2,
+    "published": "2003-09-10",
+    "journal_ref": "Phys.Rev.Lett.93:171104,2004",
+    "doi": "10.1103/PhysRevLett.93.171104"
+  },
+  {
+    "query": "1709.09071",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "chameleon gravity",
+    "expected_author": "burrage",
+    "id": "1709.09071",
+    "title": "Tests of Chameleon Gravity",
+    "authors": [
+      "Clare Burrage",
+      "Jeremy Sakstein"
+    ],
+    "n_authors": 2,
+    "published": "2017-09-26",
+    "journal_ref": "Living Rev. Relativity 21 (2018), 1",
+    "doi": "10.1007/s41114-018-0011-x"
+  },
+  {
+    "query": "gr-qc/9602056",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "tensor-scalar gravity and binary-pulsar",
+    "expected_author": "damour",
+    "id": "gr-qc/9602056",
+    "title": "Tensor-scalar gravity and binary-pulsar experiments",
+    "authors": [
+      "Thibault Damour",
+      "Gilles Esposito-Farese"
+    ],
+    "n_authors": 2,
+    "published": "1996-02-27",
+    "journal_ref": "Phys. Rev. D 54, 1474 (1996)",
+    "doi": "10.1103/PhysRevD.54.1474"
+  },
+  {
+    "query": "hep-th/9401069",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "string dilaton and a least coupling principle",
+    "expected_author": "damour",
+    "id": "hep-th/9401069",
+    "title": "The String Dilaton and a Least Coupling Principle",
+    "authors": [
+      "T. Damour",
+      "A. M. Polyakov"
+    ],
+    "n_authors": 2,
+    "published": "1994-01-14",
+    "journal_ref": "Nucl.Phys.B423:532-558,1994",
+    "doi": "10.1016/0550-3213(94)90143-0"
+  },
+  {
+    "query": "1311.1244",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "topological dark matter",
+    "expected_author": "derevianko",
+    "id": "1311.1244",
+    "title": "Hunting for topological dark matter with atomic clocks",
+    "authors": [
+      "A. Derevianko",
+      "M. Pospelov"
+    ],
+    "n_authors": 2,
+    "published": "2013-11-05",
+    "journal_ref": "Nature Phys. 10, 933 (2014)",
+    "doi": "10.1038/nphys3137"
+  },
+  {
+    "query": "2102.13379",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "topological defect dark matter",
+    "expected_author": "afach",
+    "id": "2102.13379",
+    "title": "Search for topological defect dark matter with a global network of optical magnetometers",
+    "authors": [
+      "Samer Afach",
+      "Ben C. Buchler",
+      "Dmitry Budker",
+      "Conner Dailey",
+      "Andrei Derevianko",
+      "Vincent Dumont",
+      "et al."
+    ],
+    "n_authors": 49,
+    "published": "2021-02-26",
+    "journal_ref": "Nature Physics 17, 1396-1401 (2021)",
+    "doi": "10.1038/s41567-021-01393-y"
+  },
+  {
+    "query": "0807.4363",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "weak equivalence principle",
+    "expected_author": "carroll",
+    "id": "0807.4363",
+    "title": "Dark-Matter-Induced Weak Equivalence Principle Violation",
+    "authors": [
+      "Sean M. Carroll",
+      "Sonny Mantry",
+      "Michael J. Ramsey-Musolf",
+      "Christopher W. Stubbs"
+    ],
+    "n_authors": 4,
+    "published": "2008-07-28",
+    "journal_ref": "Phys.Rev.Lett.103:011301,2009",
+    "doi": "10.1103/PhysRevLett.103.011301"
+  },
+  {
+    "query": "0902.4461",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "scalar dark force",
+    "expected_author": "carroll",
+    "id": "0902.4461",
+    "title": "Implications of a Scalar Dark Force for Terrestrial Experiments",
+    "authors": [
+      "Sean M. Carroll",
+      "Sonny Mantry",
+      "Michael J. Ramsey-Musolf"
+    ],
+    "n_authors": 3,
+    "published": "2009-02-26",
+    "journal_ref": "Phys. Rev. D 81, 063507 (2010)",
+    "doi": "10.1103/PhysRevD.81.063507"
+  },
+  {
+    "query": "0807.3060",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "fifth force",
+    "expected_author": "bovy",
+    "id": "0807.3060",
+    "title": "Connection between a possible fifth force and the direct detection of Dark Matter",
+    "authors": [
+      "Jo Bovy",
+      "Glennys R. Farrar"
+    ],
+    "n_authors": 2,
+    "published": "2008-07-20",
+    "journal_ref": "Phys.Rev.Lett.102:101301,2009",
+    "doi": "10.1103/PhysRevLett.102.101301"
+  },
+  {
+    "query": "hep-ph/0307284",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "inverse-square law",
+    "expected_author": "adelberger",
+    "id": "hep-ph/0307284",
+    "title": "Tests of the Gravitational Inverse-Square Law",
+    "authors": [
+      "E. G. Adelberger",
+      "B. R. Heckel",
+      "A. E. Nelson"
+    ],
+    "n_authors": 3,
+    "published": "2003-07-22",
+    "journal_ref": "Ann.Rev.Nucl.Part.Sci.53:77-121,2003",
+    "doi": "10.1146/annurev.nucl.53.041002.110503"
+  },
+  {
+    "query": "1207.2442",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "torsion-balance tests",
+    "expected_author": "wagner",
+    "id": "1207.2442",
+    "title": "Torsion-balance tests of the weak equivalence principle",
+    "authors": [
+      "T. A. Wagner",
+      "S. Schlamminger",
+      "J. H. Gundlach",
+      "E. G. Adelberger"
+    ],
+    "n_authors": 4,
+    "published": "2012-07-10",
+    "journal_ref": "",
+    "doi": "10.1088/0264-9381/29/18/184002"
+  },
+  {
+    "query": "1408.3588",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "short-range gravity",
+    "expected_author": "murata",
+    "id": "1408.3588",
+    "title": "Review of short-range gravity experiments in the LHC era",
+    "authors": [
+      "Jiro Murata",
+      "Saki Tanaka"
+    ],
+    "n_authors": 2,
+    "published": "2014-08-15",
+    "journal_ref": "Class. Quantum Grav. 32 033001, 2015",
+    "doi": "10.1088/0264-9381/32/3/033001"
+  },
+  {
+    "query": "2209.15487",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "microscope",
+    "expected_author": "touboul",
+    "id": "2209.15487",
+    "title": "MICROSCOPE mission: final results of the test of the Equivalence Principle",
+    "authors": [
+      "Pierre Touboul",
+      "Gilles Métris",
+      "Manuel Rodrigues",
+      "Joel Bergé",
+      "Alain Robert",
+      "Quentin Baghi",
+      "et al."
+    ],
+    "n_authors": 47,
+    "published": "2022-09-30",
+    "journal_ref": "Phys. Rev. Lett. 129, 121102 (2022)",
+    "doi": "10.1103/PhysRevLett.129.121102"
+  },
+  {
+    "query": "0808.0899",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "earth-bound dark matter",
+    "expected_author": "adler",
+    "id": "0808.0899",
+    "title": "Placing direct limits on the mass of earth-bound dark matter",
+    "authors": [
+      "Stephen L. Adler"
+    ],
+    "n_authors": 1,
+    "published": "2008-08-06",
+    "journal_ref": "J. Phy. A.: Math. Theor. 41 (2008) 412002",
+    "doi": "10.1088/1751-8113/41/41/412002"
+  },
+  {
+    "query": "1306.5534",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "dark matter in the solar system",
+    "expected_author": "pitjev",
+    "id": "1306.5534",
+    "title": "Constraints on Dark Matter in the Solar System",
+    "authors": [
+      "N. P. Pitjev",
+      "E. V. Pitjeva"
+    ],
+    "n_authors": 2,
+    "published": "2013-06-24",
+    "journal_ref": "",
+    "doi": "10.1134/S1063773713020060"
+  },
+  {
+    "query": "0705.4298",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "earth's heat flow",
+    "expected_author": "mack",
+    "id": "0705.4298",
+    "title": "Towards Closing the Window on Strongly Interacting Dark Matter: Far-Reaching Constraints from Earth's Heat Flow",
+    "authors": [
+      "Gregory D. Mack",
+      "John F. Beacom",
+      "Gianfranco Bertone"
+    ],
+    "n_authors": 3,
+    "published": "2007-05-29",
+    "journal_ref": "Phys.Rev.D76:043523,2007",
+    "doi": "10.1103/PhysRevD.76.043523"
+  },
+  {
+    "query": "2106.10576",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "causal framework for non-linear quantum mechanics",
+    "expected_author": "kaplan",
+    "id": "2106.10576",
+    "title": "A Causal Framework for Non-Linear Quantum Mechanics",
+    "authors": [
+      "David E. Kaplan",
+      "Surjeet Rajendran"
+    ],
+    "n_authors": 2,
+    "published": "2021-06-19",
+    "journal_ref": "Phys Rev D 105 055002 (2022)",
+    "doi": "10.1103/PhysRevD.105.055002"
+  },
+  {
+    "query": "quant-ph/0105127",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "decoherence, einselection",
+    "expected_author": "zurek",
+    "id": "quant-ph/0105127",
+    "title": "Decoherence, einselection, and the quantum origins of the classical",
+    "authors": [
+      "Wojciech H. Zurek"
+    ],
+    "n_authors": 1,
+    "published": "2001-05-24",
+    "journal_ref": "Rev. Mod. Phys. 75, 715 (2003)",
+    "doi": "10.1103/RevModPhys.75.715"
+  },
+  {
+    "query": "astro-ph/0302131",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "parallel universes",
+    "expected_author": "tegmark",
+    "id": "astro-ph/0302131",
+    "title": "Parallel Universes",
+    "authors": [
+      "Max Tegmark"
+    ],
+    "n_authors": 1,
+    "published": "2003-02-07",
+    "journal_ref": "In \"Science and Ultimate Reality: From Quantum to Cosmos\", honoring John Wheeler's 90th birthday. J. D. Barrow, P.C.W. Davies, & C.L. Harper eds. Cambridge University Press (2003)",
+    "doi": ""
+  },
+  {
+    "query": "1005.3035",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "building up spacetime",
+    "expected_author": "raamsdonk",
+    "id": "1005.3035",
+    "title": "Building up spacetime with quantum entanglement",
+    "authors": [
+      "Mark Van Raamsdonk"
+    ],
+    "n_authors": 1,
+    "published": "2010-05-17",
+    "journal_ref": "Gen.Rel.Grav.42:2323-2329,2010; Int.J.Mod.Phys.D19:2429-2435,2010",
+    "doi": "10.1007/s10714-010-1034-0"
+  },
+  {
+    "query": "gr-qc/9406019",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "von neumann algebra automorphisms",
+    "expected_author": "connes",
+    "id": "gr-qc/9406019",
+    "title": "Von Neumann Algebra Automorphisms and Time-Thermodynamics Relation in General Covariant Quantum Theories",
+    "authors": [
+      "A. Connes",
+      "C. Rovelli"
+    ],
+    "n_authors": 2,
+    "published": "1994-06-14",
+    "journal_ref": "Class.Quant.Grav.11:2899-2918,1994",
+    "doi": "10.1088/0264-9381/11/12/007"
+  },
+  {
+    "query": "2301.10731",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "invisible",
+    "expected_author": "atlas",
+    "id": "2301.10731",
+    "title": "Combination of searches for invisible decays of the Higgs boson using 139 fb$^{-1}$ of proton-proton collision data at $\\sqrt{s} = 13$ TeV collected with the ATLAS experiment",
+    "authors": [
+      " ATLAS Collaboration"
+    ],
+    "n_authors": 1,
+    "published": "2023-01-25",
+    "journal_ref": "Phys. Lett. B 842 (2023) 137963",
+    "doi": "10.1016/j.physletb.2023.137963"
+  },
+  {
+    "query": "2206.12976",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "ramsey interferometry",
+    "expected_author": "broz",
+    "id": "2206.12976",
+    "title": "Test of Causal Non-Linear Quantum Mechanics by Ramsey Interferometry on the Vibrational Mode of a Trapped Ion",
+    "authors": [
+      "Joseph Broz",
+      "Bingran You",
+      "Sumanta Khan",
+      "Hartmut Haeffner",
+      "David E. Kaplan",
+      "Surjeet Rajendran"
+    ],
+    "n_authors": 6,
+    "published": "2022-06-26",
+    "journal_ref": "",
+    "doi": "10.1103/PhysRevLett.130.200201"
+  },
+  {
+    "query": "0902.0144",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "mirror gravity",
+    "expected_author": "berezhiani",
+    "id": "0902.0144",
+    "title": "Gravity Modification with Yukawa-type Potential: Dark Matter and Mirror Gravity",
+    "authors": [
+      "Zurab Berezhiani",
+      "Fabrizio Nesti",
+      "Luigi Pilo",
+      "Nicola Rossi"
+    ],
+    "n_authors": 4,
+    "published": "2009-02-02",
+    "journal_ref": "JHEP 0907:083,2009",
+    "doi": "10.1088/1126-6708/2009/07/083"
+  },
+  {
+    "query": "1001.4444",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "twin matter",
+    "expected_author": "milgrom",
+    "id": "1001.4444",
+    "title": "Matter and twin matter in bimetric MOND",
+    "authors": [
+      "Mordehai Milgrom"
+    ],
+    "n_authors": 1,
+    "published": "2010-01-25",
+    "journal_ref": "MNRAS, 405, 1129 (2010)",
+    "doi": "10.1111/j.1365-2966.2010.16515.x"
+  },
+  {
+    "query": "2003.03382",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "bimetric theory",
+    "expected_author": "ben",
+    "id": "2003.03382",
+    "title": "Physical parameter space of bimetric theory and SN1a constraints",
+    "authors": [
+      "Marvin Lüben",
+      "Angnis Schmidt-May",
+      "Jochen Weller"
+    ],
+    "n_authors": 3,
+    "published": "2020-03-06",
+    "journal_ref": "",
+    "doi": "10.1088/1475-7516/2020/09/024"
+  },
+  {
+    "query": "0908.3384",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "bimetric",
+    "expected_author": "hohmann",
+    "id": "0908.3384",
+    "title": "No-go theorem for bimetric gravity with positive and negative mass",
+    "authors": [
+      "Manuel Hohmann",
+      "Mattias N. R. Wohlfarth"
+    ],
+    "n_authors": 2,
+    "published": "2009-08-24",
+    "journal_ref": "Phys. Rev. D 80 (2009) 104011",
+    "doi": "10.1103/PhysRevD.80.104011"
+  },
+  {
+    "query": "2102.00022",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "short-range fifth force",
+    "expected_author": "berg",
+    "id": "2102.00022",
+    "title": "MICROSCOPE's constraint on a short-range fifth force",
+    "authors": [
+      "Joel Bergé",
+      "Martin Pernot-Borràs",
+      "Jean-Philippe Uzan",
+      "Philippe Brax",
+      "Ratana Chhun",
+      "Gilles Métris",
+      "et al."
+    ],
+    "n_authors": 8,
+    "published": "2021-01-29",
+    "journal_ref": "",
+    "doi": "10.1088/1361-6382/abe142"
+  },
+  {
+    "query": "1807.04512",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "light scalar dark matter",
+    "expected_author": "hees",
+    "id": "1807.04512",
+    "title": "Violation of the equivalence principle from light scalar dark matter",
+    "authors": [
+      "A. Hees",
+      "O. Minazzoli",
+      "E. Savalle",
+      "Y. V. Stadnik",
+      "P. Wolf"
+    ],
+    "n_authors": 5,
+    "published": "2018-07-12",
+    "journal_ref": "Phys. Rev. D 98, 064051 (2018)",
+    "doi": "10.1103/PhysRevD.98.064051"
+  },
+  {
+    "query": "1708.08464",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "neutron star inspirals",
+    "expected_author": "hook",
+    "id": "1708.08464",
+    "title": "Probing axions with neutron star inspirals and other stellar processes",
+    "authors": [
+      "Anson Hook",
+      "Junwu Huang"
+    ],
+    "n_authors": 2,
+    "published": "2017-08-28",
+    "journal_ref": "",
+    "doi": "10.1007/JHEP06(2018)036"
+  },
+  {
+    "query": "2105.13354",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "density induced vacuum instability",
+    "expected_author": "balkin",
+    "id": "2105.13354",
+    "title": "Density Induced Vacuum Instability",
+    "authors": [
+      "Reuven Balkin",
+      "Javi Serra",
+      "Konstantin Springmann",
+      "Stefan Stelzl",
+      "Andreas Weiler"
+    ],
+    "n_authors": 5,
+    "published": "2021-05-27",
+    "journal_ref": "",
+    "doi": ""
+  },
+  {
+    "query": "2410.23350",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "quadratically coupled dark matter",
+    "expected_author": "",
+    "id": "2410.23350",
+    "title": "On the time-dependent density of quadratically coupled dark matter around ordinary matter objects",
+    "authors": [
+      "Clare Burrage",
+      "Benjamin Elder",
+      "Yeray Garcia del Castillo",
+      "Joerg Jaeckel"
+    ],
+    "n_authors": 4,
+    "published": "2024-10-30",
+    "journal_ref": "",
+    "doi": ""
+  },
+  {
+    "query": "1402.6144",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "many classical worlds",
+    "expected_author": "hall",
+    "id": "1402.6144",
+    "title": "Quantum phenomena modelled by interactions between many classical worlds",
+    "authors": [
+      "Michael J. W. Hall",
+      "D. -A. Deckert",
+      "Howard M. Wiseman"
+    ],
+    "n_authors": 3,
+    "published": "2014-02-25",
+    "journal_ref": "Phys. Rev. X 4, 041013 (2014)",
+    "doi": "10.1103/PhysRevX.4.041013"
+  },
+  {
+    "query": "hep-ph/0306120",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "mirror matter",
+    "expected_author": "ignatiev",
+    "id": "hep-ph/0306120",
+    "title": "Mirror matter",
+    "authors": [
+      "A. Yu. Ignatiev",
+      "R. R. Volkas"
+    ],
+    "n_authors": 2,
+    "published": "2003-06-13",
+    "journal_ref": "",
+    "doi": ""
+  },
+  {
+    "query": "astro-ph/0407623",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "mirror matter-type dark matter",
+    "expected_author": "foot",
+    "id": "astro-ph/0407623",
+    "title": "Mirror matter-type dark matter",
+    "authors": [
+      "R. Foot"
+    ],
+    "n_authors": 1,
+    "published": "2004-07-30",
+    "journal_ref": "Int.J.Mod.Phys.D13:2161-2192,2004",
+    "doi": "10.1142/S0218271804006449"
+  },
+  {
+    "query": "title:\"Geophysical constraints on mirror matter within the Earth\"",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "Geophysical constraints on mirror matter within the Earth",
+    "expected_author": "ignatiev",
+    "id": "hep-ph/0005125",
+    "title": "Geophysical constraints on mirror matter within the Earth",
+    "authors": [
+      "A. Yu. Ignatiev",
+      "R. R. Volkas"
+    ],
+    "n_authors": 2,
+    "published": "2000-05-12",
+    "journal_ref": "Phys.Rev. D62 (2000) 023508",
+    "doi": "10.1103/PhysRevD.62.023508"
+  },
+  {
+    "query": "title:\"Environmental dependence of masses and coupling constants\"",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "Environmental dependence of masses and coupling constants",
+    "expected_author": "olive",
+    "id": "0709.3825",
+    "title": "Environmental Dependence of Masses and Coupling Constants",
+    "authors": [
+      "Keith A. Olive",
+      "Maxim Pospelov"
+    ],
+    "n_authors": 2,
+    "published": "2007-09-24",
+    "journal_ref": "Phys.Rev.D77:043524,2008",
+    "doi": "10.1103/PhysRevD.77.043524"
+  },
+  {
+    "query": "title:\"Opposite thermodynamic arrows of time\"",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "Opposite thermodynamic arrows of time",
+    "expected_author": "schulman",
+    "id": "cond-mat/9911101",
+    "title": "Opposite Thermodynamic Arrows of Time",
+    "authors": [
+      "L. S. Schulman"
+    ],
+    "n_authors": 1,
+    "published": "1999-11-08",
+    "journal_ref": "Phys.Rev.Lett. 83 (1999) 5419-5422",
+    "doi": "10.1103/PhysRevLett.83.5419"
+  },
+  {
+    "query": "title:\"New bounds from positronium decays on massless mirror dark photons\"",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "New bounds from positronium decays on massless mirror dark photons",
+    "expected_author": "vigo",
+    "id": "1905.09128",
+    "title": "New bounds from positronium decays on massless mirror dark photons",
+    "authors": [
+      "C. Vigo",
+      "L. Gerchow",
+      "B. Radics",
+      "M. Raaijmakers",
+      "A. Rubbia",
+      "P. Crivelli"
+    ],
+    "n_authors": 6,
+    "published": "2019-05-22",
+    "journal_ref": "Phys. Rev. Lett. 124, 101803 (2020)",
+    "doi": "10.1103/PhysRevLett.124.101803"
+  },
+  {
+    "query": "title:\"Galilean equivalence for galactic dark matter\"",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "Galilean equivalence for galactic dark matter",
+    "expected_author": "kesden",
+    "id": "astro-ph/0606566",
+    "title": "Galilean Equivalence for Galactic Dark Matter",
+    "authors": [
+      "Michael Kesden",
+      "Marc Kamionkowski"
+    ],
+    "n_authors": 2,
+    "published": "2006-06-22",
+    "journal_ref": "Phys.Rev.Lett. 97 (2006) 131303",
+    "doi": "10.1103/PhysRevLett.97.131303"
+  },
+  {
+    "query": "title:\"state-dependent terms in quantum theory\"",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "state-dependent terms in quantum theory",
+    "expected_author": "polkovnikov",
+    "id": "2204.11875",
+    "title": "Experimental limit on non-linear state-dependent terms in quantum theory",
+    "authors": [
+      "Mark Polkovnikov",
+      "Alexander V. Gramolin",
+      "David E. Kaplan",
+      "Surjeet Rajendran",
+      "Alexander O. Sushkov"
+    ],
+    "n_authors": 5,
+    "published": "2022-04-25",
+    "journal_ref": "Phys. Rev. Lett. 130, 040202 (2023)",
+    "doi": "10.1103/PhysRevLett.130.040202"
+  },
+  {
+    "query": "title:\"Have mirror micrometeorites been detected\"",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "Have mirror micrometeorites been detected",
+    "expected_author": "foot",
+    "id": "hep-ph/0306228",
+    "title": "Have mirror micrometeorites been detected?",
+    "authors": [
+      "R. Foot",
+      "S. Mitra"
+    ],
+    "n_authors": 2,
+    "published": "2003-06-24",
+    "journal_ref": "Phys.Rev. D68 (2003) 071901",
+    "doi": "10.1103/PhysRevD.68.071901"
+  },
+  {
+    "query": "title:\"Detecting dark matter using centrifuging techniques\"",
+    "status": "VERIFIED",
+    "title_match": true,
+    "author_match": true,
+    "expected_title": "Detecting dark matter using centrifuging techniques",
+    "expected_author": "mitra",
+    "id": "astro-ph/0301229",
+    "title": "Detecting dark matter using centrifuging techniques",
+    "authors": [
+      "S. Mitra",
+      "R. Foot"
+    ],
+    "n_authors": 2,
+    "published": "2003-01-13",
+    "journal_ref": "Phys.Lett. B558 (2003) 9-14",
+    "doi": "10.1016/S0370-2693(03)00217-X"
+  }
+]

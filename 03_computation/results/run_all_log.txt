@@ -1,0 +1,308 @@
+
+====================================================================================================
+exp0_symbolic_checks.py  -  computer-algebra checks of the analytic identities
+====================================================================================================
+S1  sector balance laws
+  [PASS] S1a energy balance of sector A  
+  [PASS] S1b momentum balance of sector A  
+  [PASS] S1c momentum balance of the gate  
+S2  total conservation (dynamical gate)
+  [PASS] S2a total energy  
+  [PASS] S2b total momentum  
+S3  prescribed gate f(t,x): what fails to be conserved
+  [PASS] S3a energy source = +(d_t f) O_A O_B  
+  [PASS] S3b momentum source = -(d_x f) O_A O_B  
+S4  finite-size thresholds
+  [PASS] S4a slab  k0 tan(k0 Lc/2) = mu  
+  [PASS] S4b ball  k0 cot(k0 Rc) = -mu  
+  [PASS] S4c slab  Lc -> pi/(mu sqrt(r-1)) as r->1+  
+  [PASS] S4d slab  Lc ~ 2/(mu (r-1)) as r->oo  
+  [PASS] S4e ball  (r-1) mu^2 Rc^2 > pi^2/4 for all r>1  
+S5  bulk gate energy densities
+  [PASS] S5a even gate  V_min = -(s-mu^2)^2/(4 lambda)  (stationary chi^2 = [0, (-mu**2 + s)/lambda])
+  [PASS] S5b odd gate   V_min = -(n_A n_B)^2/(2 M^6 mu^2)  
+S6  bimetric bookkeeping (linearised, proportional backgrounds)
+  [PASS] S6a massless mode couples to T_A + T_B  
+  [PASS] S6b massive mode couples to -alpha T_A + T_B/alpha  
+  [PASS] S6c massive/massless static weight = 4/3  
+S7  positivity bound for the bimetric potentials
+  [PASS] S7  V_AA V_BB - V_AB^2 = (4/3) y (alpha + 1/alpha)^2 >= 0  
+
+18/18 symbolic checks passed
+
+
+
+====================================================================================================
+exp1_conservation_causality.py  -  conservation laws and causality with a gated coupling
+====================================================================================================
+(a) prescribed gate: measured non-conservation vs Proposition 2
+   n= 1200 dx=0.2000  dP=-1.915256e-01  formula=-1.985878e-01  |err|=7.06e-03   dE=-4.060132e-01  formula=-4.064984e-01  |err|=4.85e-04
+   n= 2400 dx=0.1000  dP=-1.928613e-01  formula=-1.945961e-01  |err|=1.73e-03   dE=-3.999686e-01  formula=-4.000570e-01  |err|=8.83e-05
+   n= 4800 dx=0.0500  dP=-1.931420e-01  formula=-1.935738e-01  |err|=4.32e-04   dE=-3.983771e-01  formula=-3.983971e-01  |err|=2.00e-05
+   n= 9600 dx=0.0250  dP=-1.932089e-01  formula=-1.933167e-01  |err|=1.08e-04   dE=-3.979742e-01  formula=-3.979791e-01  |err|=4.87e-06
+[prescribed-gate resolution study] 8.4 s
+   observed convergence order: momentum [2.03 2.01 2.  ], energy [2.46 2.14 2.04] (expected 2)
+(b) dynamical gate: total conservation
+[dynamical gate] 5.4 s
+   n=2400: max|dE|/E = 5.42e-05   max|dP_tot| = 8.24e-04   dP_(A+B) = -7.87612e-02   dP_gate = +7.95818e-02
+   n=4800: max|dE|/E = 1.36e-05   max|dP_tot| = 2.12e-04   dP_(A+B) = -7.63787e-02   dP_gate = +7.65898e-02
+   n=9600: max|dE|/E = 3.38e-06   max|dP_tot| = 5.33e-05   dP_(A+B) = -7.57899e-02   dP_gate = +7.58431e-02
+(c) causality: coupled-minus-uncoupled difference outside the gate's future light cone
+[causality] 1.3 s
+   n=1200: max diff inside = 1.959e-01   outside cone = 3.302e-13   ratio = 1.69e-12
+   n=2400: max diff inside = 1.944e-01   outside cone = 8.327e-16   ratio = 4.28e-15
+   n=4800: max diff inside = 1.944e-01   outside cone = 0.000e+00   ratio = 0.00e+00
+RESULT: consistent with Propositions 1-2 and causality
+
+
+
+====================================================================================================
+exp2_gate_threshold.py  -  finite-size threshold for the gate to open
+====================================================================================================
+threshold overlap ratio r_c for a given size: numeric vs analytic
+   slab L= 0.25: numeric r_c=  8.677252  analytic=  8.677516  rel.err=3.0e-05
+   slab L= 0.50: numeric r_c=  4.687786  analytic=  4.687851  rel.err=1.4e-05
+   slab L= 1.00: numeric r_c=  2.707037  analytic=  2.707053  rel.err=5.8e-06
+   slab L= 2.00: numeric r_c=  1.740170  analytic=  1.740174  rel.err=2.1e-06
+   slab L= 4.00: numeric r_c=  1.289914  analytic=  1.289914  rel.err=6.0e-07
+   slab L= 8.00: numeric r_c=  1.099949  analytic=  1.099949  rel.err=1.3e-07
+   ball R= 1.00: numeric r_c=  5.115850  analytic=  5.115858  rel.err=1.6e-06
+   ball R= 1.50: numeric r_c=  3.101777  analytic=  3.101777  rel.err=1.2e-07
+   ball R= 2.00: numeric r_c=  2.309800  analytic=  2.309800  rel.err=1.8e-07
+   ball R= 3.00: numeric r_c=  1.670021  analytic=  1.670021  rel.err=2.3e-07
+   ball R= 5.00: numeric r_c=  1.281677  analytic=  1.281677  rel.err=1.3e-07
+   ball R= 8.00: numeric r_c=  1.122888  analytic=  1.122888  rel.err=5.2e-08
+[thresholds] 0.3 s
+grid-convergence of the numeric threshold (slab L=2, ball R=2)
+   h= 0.040: |err| slab=2.343e-04  ball=2.728e-05
+   h= 0.020: |err| slab=5.860e-05  ball=6.825e-06
+   h= 0.010: |err| slab=1.465e-05  ball=1.706e-06
+   h= 0.005: |err| slab=3.663e-06  ball=4.267e-07
+   observed order: slab [2. 2. 2.], ball [2. 2. 2.]
+Sobolev sufficient condition for isolation vs exact ball threshold
+   min over r of ||U_+||_(3/2) at exact threshold = 6.4935  >=  S_3 = 5.4779 : True
+Gaussian overlap r(rho) = r0 exp(-rho^2 / 2 sigma^2): numeric threshold r0_c(sigma)
+   sigma= 0.5: r0_c=  10.6051   ||U_+||_(3/2)=  7.936  (>= S_3: True)
+   sigma= 1.0: r0_c=   4.4583   ||U_+||_(3/2)=  8.753  (>= S_3: True)
+   sigma= 2.0: r0_c=   2.3934   ||U_+||_(3/2)=  9.406  (>= S_3: True)
+   sigma= 4.0: r0_c=   1.6131   ||U_+||_(3/2)=  9.834  (>= S_3: True)
+   sigma= 8.0: r0_c=   1.2858   ||U_+||_(3/2)= 10.081  (>= S_3: True)
+RESULT: worst relative error numeric-vs-analytic = 3.0e-05; consistent
+
+
+
+====================================================================================================
+exp3_static_gate_energy.py  -  open-gate energy, attraction, bulk bound
+====================================================================================================
+r = 5.0, lambda = 1.0:  bulk energy density u = 4.0,  L_c = 0.46365,  R_c = 1.01722
+[slab W(L)] 2.7 s
+   W = 0 for all L < L_c: True;  W <= u L everywhere: True;  W non-decreasing: True;  convex (force non-decreasing): True
+   force per unit area at L = 12.5:  dW/dL = 4.00000  = 1.00000 x bulk value u
+   near threshold L-L_c=0.016: W=1.4662e-03  weakly-nonlinear prediction=1.4543e-03  ratio=1.008
+   near threshold L-L_c=0.026: W=3.7744e-03  weakly-nonlinear prediction=3.7263e-03  ratio=1.013
+   near threshold L-L_c=0.036: W=7.1249e-03  weakly-nonlinear prediction=7.0031e-03  ratio=1.017
+   near threshold L-L_c=0.046: W=1.1494e-02  weakly-nonlinear prediction=1.1250e-02  ratio=1.022
+   near threshold L-L_c=0.056: W=1.6858e-02  weakly-nonlinear prediction=1.6433e-02  ratio=1.026
+   near threshold L-L_c=0.076: W=3.0475e-02  weakly-nonlinear prediction=2.9486e-02  ratio=1.034
+   grid convergence of W(L=4): h=0.04: 12.77449003, h=0.02: 12.77287862, h=0.01: 12.77247540, h=0.005: 12.77237458 | successive error ratio: [4.2 5. ]
+[ball W(R)] 1.1 s
+   ball: W = 0 for R < R_c: True;  W <= u * volume: True;  W/(u V) at R=10.0: 0.8761
+RESULT: consistent with Theorem 3
+
+
+
+====================================================================================================
+exp4_contact_event.py  -  full dynamical contact event
+====================================================================================================
+r0 = 5.0: bulk traction u = 4.0;  critical overlap depth for these profiles d_c = 0.5450
+[four runs at dx = 0.1] 126.9 s
+   baseline r0=0                        max|X_A| = 0.000e+00   max|chi| = 3.241e-08   max|F_A| = 0.000e+00
+   sub-threshold density r0=0.9         max|X_A| = 2.435e-18   max|chi| = 3.241e-08   max|F_A| = 1.535e-16
+   sub-critical size (depth 0.8 d_c)    max|X_A| = 7.551e-19   max|chi| = 3.241e-08   max|F_A| = 8.761e-17
+   contact r0=5 depth 10                max|X_A| = 1.419e-01   max|chi| = 2.563e+00   max|F_A| = 7.879e+00
+   during hold:  F_A = -4.0000 (prediction -u = -4.0000),  F_B = +4.0000,  X_A = -0.10000 (prediction -0.10000)
+   overlap depth crosses d_c at t = 260.2; gate reaches 1% of bulk amplitude at t = 274.1 (depth then = 2.672)
+   Newton's third law incl. gate momentum: rms(F_A + F_B + dP_chi/dt) / max|F_A| = 1.61e-03
+   energy budget drift / max|E_int| = 1.78e-04   (max |E_int| = 92.740)
+   after retraction: max|F_A| = 0.00e+00;  lingering free gate field near the site: 3.11e-02 -> 2.16e-02 (bulk value was 2.00), local decay ~ t^-0.56
+   energy radiated into free gate quanta (absorbed + still in box) = 7.8206e+00 = 8.43e-02 of the peak gate energy
+   grid refinement of the contact run:
+      dx= 0.20: F_A(hold) = -4.00000   X_A(hold) = -0.100000   min X_A = -0.141755   t_on = 274.6
+      dx= 0.10: F_A(hold) = -4.00000   X_A(hold) = -0.100000   min X_A = -0.141871   t_on = 274.1
+      dx= 0.05: F_A(hold) = -4.00000   X_A(hold) = -0.100000   min X_A = -0.141846   t_on = 274.0
+[convergence runs] 113.2 s
+RESULT: consistent with Theorems 2-3 and the conservation laws
+
+
+
+====================================================================================================
+exp5_adiabatic_radiation.py  -  gate radiation versus switching time
+====================================================================================================
+slab L = 10.0, r_max = 5.0:  static binding energy W_peak = 36.7724;  threshold ratio r_c = 1.06905
+   tau=   12.5: E_rad/W_peak = 1.053e+00  (range 1.05e+00 - 1.06e+00)   opening delay =   9.64
+   tau=   25.0: E_rad/W_peak = 9.289e-01  (range 9.16e-01 - 9.47e-01)   opening delay =  11.44
+   tau=   50.0: E_rad/W_peak = 4.087e-01  (range 3.67e-01 - 4.56e-01)   opening delay =  13.64
+   tau=  100.0: E_rad/W_peak = 2.260e-01  (range 1.89e-01 - 2.52e-01)   opening delay =  18.44
+   tau=  200.0: E_rad/W_peak = 9.111e-02  (range 7.11e-02 - 1.14e-01)   opening delay =  23.91
+   tau=  400.0: E_rad/W_peak = 3.066e-02  (range 2.53e-02 - 3.34e-02)   opening delay =  30.25
+   tau=  800.0: E_rad/W_peak = 1.029e-02  (range 9.53e-03 - 1.10e-02)   opening delay =  35.32
+   tau= 1600.0: E_rad/W_peak = 4.213e-03  (range 3.91e-03 - 4.49e-03)   opening delay =  44.08
+[tau sweep (3 seeds each)] 69.4 s
+   fitted scaling for tau >= 100:  E_rad/W_peak ~ tau^(-1.46 +- 0.03)   (scaling argument: -4/3 = -1.33)
+                                   opening delay ~ tau^(0.31 +- 0.01)   (scaling argument: +1/3 = +0.33)
+   local log-slopes of the radiated fraction between neighbouring tau: [-0.18 -1.18 -0.85 -1.31 -1.57 -1.58 -1.29]
+   dependence on the (unphysical) classical seed amplitude at tau = 200:
+      seed 1e-03:  E_rad/W_peak = 6.098e-02
+      seed 1e-05:  E_rad/W_peak = 9.583e-02
+      seed 1e-07:  E_rad/W_peak = 1.337e-01
+      seed 1e-09:  E_rad/W_peak = 1.738e-01
+      seed 1e-11:  E_rad/W_peak = 2.135e-01
+[seed sweep] 8.2 s
+      effective power of ln-dependence: d ln(frac) / d ln(1/seed) = 0.067 (weak, logarithmic)
+   grid check at tau = 100 (same seed):
+      dx = 0.2: E_rad/W_peak = 2.4571e-01
+      dx = 0.1: E_rad/W_peak = 2.3759e-01
+      dx = 0.05: E_rad/W_peak = 2.3552e-01
+RESULT: radiated fraction decreases monotonically for tau >= 100: True; exponent -1.46 vs predicted -1.33; delay exponent 0.31 vs predicted 0.33
+
+
+
+====================================================================================================
+exp6_touch_numbers.py  -  physical scales: what touch requires
+====================================================================================================
+
+[1] What counts as touch (assumptions flagged *)
+  Semmes-Weinstein 2.83 monofilament force (clinical 'normal')             0.6865 mN         
+  * fiducial perceptible traction P_touch                                     100 Pa         (~1 g weight on 1 cm^2)
+    corresponding force on 1 cm^2                                              10 mN         
+  * skin displacement ~ P a / E  (a = 5 mm, E = 50 kPa)                        10 micron     
+    impulse for a 10 ms event on 1 cm^2                                    0.0001 N s        
+
+[2] Contact route: coherent mean-field traction  P = G n_A n_B  (both bodies at water density)
+  nucleon number density of water-density matter                        6.022e+29 m^-3       
+  Fermi constant as a contact strength                                  1.436e-62 J m^3      
+  traction from a WEAK-strength contact coupling (G = G_F)               0.005207 Pa         
+  required G / G_F for P = 1 Pa (optimistic)                                  192            <-> contact scale 21.13 GeV
+  required G / G_F for P = 100 Pa (fiducial)                             1.92e+04            <-> contact scale 2.11 GeV
+  required G / G_F for P = 10000 Pa (firm)                               1.92e+06            <-> contact scale 0.21 GeV
+  mean-field potential per nucleon at fiducial P                        1.036e-09 eV         (<< thermal 0.027 eV: matter not disrupted)
+  hearing threshold 20 microPa  ->  G / G_F                              0.003841            (pressure across the ear, audio band)
+  1 fN force sensor on 1 cm^2    ->  G / G_F                             1.92e-09            
+
+[3] Maximum traction available from the standard portals (neutral, unmagnetised bodies)
+  weak-scale mediator (Z-like), G <= G_F                                 0.005207 Pa         
+  Higgs portal, light B particle (coupling limited by H->inv)           3.233e-07 Pa         (g_B < 0.00993)
+  Higgs portal, 100 GeV B particle, g_B = 1                             3.256e-07 Pa         
+  photon kinetic mixing, neutral bodies, first order in epsilon                 0 Pa         (vanishes: see exp8)
+  shortfall of the best standard portal vs fiducial touch                1.92e+04 x          
+  shortfall vs optimistic touch                                               192 x          
+
+[4] Thermal contact implied by a contact coupling of touch strength (order of magnitude)
+  nucleon-nucleon cross-section at G_touch (Born)                       1.349e-30 cm^2       
+  nucleus-nucleus (A=16) cross-section, Born estimate                   2.263e-23 cm^2       
+     ... capped at geometric value                                      4.596e-24 cm^2       
+  volumetric heat-exchange coefficient, incoherent floor                    2.447 W/cm^3/K   
+  volumetric heat-exchange coefficient, nucleus-coherent                     8142 W/cm^3/K   
+  thermal equilibration time of overlapping bodies (floor)                  1.708 s          
+  thermal equilibration time (nucleus-coherent)                         0.0005134 s          
+  always-on G allowed if co-located bodies must stay thermally                  0            
+     isolated for 10 Gyr (incoherent estimate): G / G_F <               4.468e-05            
+
+[5] Long-range mediator route (two 0.1 kg bodies, 5 cm apart) and the positivity bound
+  Newtonian gravity between the two bodies                               2.67e-10 N          
+  required cross-sector strength / gravity                              3.746e+07            
+  * assumed bound on A-A fifth force / gravity                              0.001            
+  positivity bound => B-B force / gravity  >=                           1.403e+18            
+     i.e. B-B force between the same two bodies >=                      3.746e+08 N          
+     B self-binding per unit mass (range 5 cm) >=                       2.942e+09 J/kg       (chemical binding ~ 1e6-1e7 J/kg)
+     same, per nucleon                                                      30.49 eV         
+
+[6] Shared gravity: hidden mass co-located with the Earth
+  mean density of the Earth                                                  5513 kg/m^3     
+  max mean density of a co-located B world filling R_Earth                  20.95 kg/m^3     (air at sea level: 1.2)
+     as a fraction of water density                                       0.02095            
+     pressure scale needed to hold it up against Earth's gravity        1.308e+09 Pa         
+
+[7] Even (threshold) gate  L = 1/2 g chi^2 n_A n_B,  g = 1/M^4  - benchmark parameters
+  * threshold density product / water^2 (theta)                              0.03            
+  overlap ratio r: flesh-flesh                                              33.33            (gate opens)
+  overlap ratio r: flesh-air                                                 0.04            (< 1: gate closed)
+  * gate mass mu                                                           0.0002 eV         (Compton wavelength 0.99 mm)
+  critical radius of overlap region R_c                                    0.3028 mm         
+  portal scale M                                                            2.002 MeV        
+  quartic self-coupling lambda (from P_touch)                            8.72e-14            
+  open-gate field value chi_on                                               3851 eV         
+  gate response time hbar/mu                                            3.291e-12 s          
+  mu*tau for a 10 ms event                                              3.039e+09            
+  radiated fraction of gate energy (extrapolating exp5 fit)             2.609e-12            (extrapolation over ~7 decades!)
+  naturalness: gate loops must be cut off below ~4 pi chi_on                 48.4 keV        
+  naturalness: (M^2/16 pi^2) / mu^2  (tuning of mu^2 if cutoff ~ M)     6.344e+17            
+  loop-induced UNGATED contact coupling (cutoff ~ M) / G_F              1.355e+08            (vs needed-when-open ~ G_touch/G_F)
+
+[8] Odd (protected) gate  L = -chi J_A.J_B / M^3  ->  E = -(n_A n_B)^2 / Lambda^8
+  required scale Lambda (fiducial touch, water densities)                   55.92 keV        
+     scaling with touch threshold: Lambda ~ P^(-1/8); for 1 Pa              99.44 keV        
+     corresponding M for gate mass mu = 2e-4 eV                             32.57 MeV        
+  traction for flesh overlapping AIR-density matter                      0.000144 Pa         (isolation by nonlinearity)
+  traction for flesh overlapping dark-matter-density B matter           5.085e-47 Pa         
+
+[9] A pre-existing lump of gate field of size 1 cm
+  relativistic lump / collapsing bubble: lifetime ~ L/c                 3.336e-11 s          (nerves need >~ 1e-3 s)
+  non-relativistic cloud lasting 1 ms needs particle mass m c^2 >           591.6 eV         
+  galactic lump crossing time at 230 km/s                               4.348e-08 s          
+
+[10] Bimetric gravity: strong-coupling scale Lambda_3 = (m^2 M_Pl)^(1/3) of the link field
+  graviton Compton wavelength 1 AU: 1/Lambda_3 =                        0.0001219 m          (m_FP = 1.32e-18 eV)
+  graviton Compton wavelength 1 kpc: 1/Lambda_3 =                           42.57 m          (m_FP = 6.39e-27 eV)
+  graviton Compton wavelength Hubble radius: 1/Lambda_3 =               1.151e+06 m          (m_FP = 1.44e-33 eV)
+
+[11] Beyond mean field: can an ATTRACTIVE touch-strength contact coupling bind an A nucleus to a B nucleus?
+     (square well of radius b, depth V0 = A_A A_B G / (4 pi b^3/3); s-wave bound state iff 2 m_r V0 b^2/hbar^2 > pi^2/4)
+  H - H: bound state exists if interaction range b <                     0.003984 fm         (mediator heavier than 4.95e+04 MeV); nuclear radius 1.2 fm
+  O - O: bound state exists if interaction range b <                        16.32 fm         (mediator heavier than 12.1 MeV); nuclear radius 3.0 fm
+  Ca - Ca: bound state exists if interaction range b <                      254.9 fm         (mediator heavier than 0.774 MeV); nuclear radius 4.1 fm
+  O - O well depth for a truly point-like contact term                      4.406 MeV        (nuclear-scale binding)
+  encounter rate of an A nucleus with B nuclei (geometric, 600 m/s)     1.038e+04 1/s        
+
+Numbers written to results/exp6_touch_numbers.json
+
+
+
+====================================================================================================
+exp7_positivity_bound.py  -  Monte-Carlo test of the cross-force bound
+====================================================================================================
+same-sign mediators, 20000 random configurations: violations = 0
+   smallest relative margin 1 - U_AB^2/(U_AA U_BB): energy -5.572e-16, normal force -6.125e-16
+mixed-sign counterexample (degenerate scalar+vector): U_AA = 0.0, U_BB = 0.0, U_AB = -2.0  -> bound violated (requires exact degeneracy and tuned charges)
+   mass splitting delta = 0:  U_AA / U_AB = -0.000e+00
+   mass splitting delta = 0.001:  U_AA / U_AB = +5.000e-04
+   mass splitting delta = 0.01:  U_AA / U_AB = +5.000e-03
+   mass splitting delta = 0.1:  U_AA / U_AB = +4.996e-02
+RESULT: no violation found for same-sign factorised exchange
+
+
+
+====================================================================================================
+exp8_neutral_matter_meanfield.py  -  kinetic mixing: neutral-matter mean field cancels
+====================================================================================================
+volume integral of the atom-atom electrostatic energy, int V d^3R  (should vanish)
+   b1=1.00 b2=1.00:  positive part = +2.129952   negative part = -2.129952   total = +5.76e-12   |total|/positive = 2.7e-12   real-vs-Fourier V: 1.4e-11
+   b1=1.00 b2=0.25:  positive part = +0.315711   negative part = -0.315711   total = +1.71e-11   |total|/positive = 5.4e-11   real-vs-Fourier V: 2.6e-08
+   b1=1.00 b2=0.05:  positive part = +0.015482   negative part = -0.015482   total = +8.39e-11   |total|/positive = 5.4e-09   real-vs-Fourier V: 5.6e-04
+   b1=0.60 b2=1.70:  positive part = +1.600464   negative part = -1.600464   total = +7.27e-12   |total|/positive = 4.5e-12   real-vs-Fourier V: 9.3e-11
+keeping only the nucleus-nucleus piece (Z = Z' = 8, r2 = 4a0/Z', a = 3e-8 cm) would give <zeta> ~ epsilon x 4 eV;  with the electron-cloud piece included the sum is zero.
+RESULT: mean-field energy cancels to 5.4e-09 of either piece
+
+
+====================================================================================================
+SUMMARY
+====================================================================================================
+  exp0_symbolic_checks.py                PASS                     1.5 s
+  exp1_conservation_causality.py         PASS                    17.6 s
+  exp2_gate_threshold.py                 PASS                     2.5 s
+  exp3_static_gate_energy.py             PASS                     6.7 s
+  exp4_contact_event.py                  PASS                   242.3 s
+  exp5_adiabatic_radiation.py            PASS                    84.2 s
+  exp6_touch_numbers.py                  PASS                     0.6 s
+  exp7_positivity_bound.py               PASS                     3.0 s
+  exp8_neutral_matter_meanfield.py       PASS                     3.8 s

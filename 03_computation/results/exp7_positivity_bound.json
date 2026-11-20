@@ -1,0 +1,29 @@
+{
+  "n_trials": 20000,
+  "violations": 0,
+  "min_margin_energy": -5.572426066688044e-16,
+  "min_margin_force": -6.124630652407381e-16,
+  "mixed_sign_counterexample": {
+    "U_AA": 0.0,
+    "U_BB": 0.0,
+    "U_AB": -2.0
+  },
+  "degeneracy_breaking": [
+    {
+      "delta": 0.0,
+      "U_AA_over_U_AB": -0.0
+    },
+    {
+      "delta": 0.001,
+      "U_AA_over_U_AB": 0.0004999999583332914
+    },
+    {
+      "delta": 0.01,
+      "U_AA_over_U_AB": 0.004999958333750002
+    },
+    {
+      "delta": 0.1,
+      "U_AA_over_U_AB": 0.04995837495788
+    }
+  ]
+}
